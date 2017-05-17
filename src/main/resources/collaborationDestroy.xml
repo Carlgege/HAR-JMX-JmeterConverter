@@ -1,0 +1,6 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySamplerGui" 
+testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler" testname="|agent| |collaborationDestroy|" enabled="true">
+          <stringProp name="thoughtwireApiDestroycollaborationMethod">POST</stringProp>
+          <stringProp name="thoughtwireApiDestroycollaborationPath">/agent-server/destroyCollaboration</stringProp>
+        </ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.destroy.CollaborationDestroySampler>
+        <hashTree/>

@@ -1,0 +1,7 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSamplerGui"
+ testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler" testname="|agent| |register| **PARTICIPANTNAME**" enabled="true">
+          <stringProp name="thoughtwireApiUnregisterMethod">POST</stringProp>
+          <stringProp name="thoughtwireApiUnregisterPath">/agent-server/unregister</stringProp>
+          <stringProp name="thoughtwireApiRegisterPt">**UNREGISTERPT**</stringProp>
+        </ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.unregister.ParticipantUnregisterSampler>
+        <hashTree/>

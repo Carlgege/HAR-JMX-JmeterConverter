@@ -1,0 +1,19 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler
+	guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSamplerGui"
+	testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler"
+	testname="|agent| |register| **INSERT NAME**"
+	enabled="true">
+	<stringProp name="thoughtwireApiRegisterMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiRegisterPath">/agent-server/register</stringProp>
+	<stringProp name="thoughtwireApiEnablenotificationsMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiEnablenotificationsPath">/agent-server/enableNotifications
+	</stringProp>
+	<stringProp name="thoughtwireApiWaitingrequestsMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiWaitingrequestsPath">/agent-server/waitingRequests</stringProp>
+	<stringProp name="thoughtwireApiRegisterBaseuri">**BaseURI**</stringProp>
+	<stringProp name="thoughtwireApiRegisterName">**ParticipantName**</stringProp>
+	<stringProp name="thoughtwireApiRegisterPtvar">**Pt**</stringProp>
+	<stringProp name="thoughtwireApiRegisterCrs">**CRS**</stringProp>
+	<stringProp name="thoughtwireApiRegisterEor">**EOR**</stringProp>
+</ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.register.ParticipantRegisterSampler>
+<hashTree />

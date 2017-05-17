@@ -1,0 +1,11 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler
+	guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.share.share.ShareValuesSamplerGui"
+	testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler"
+	testname="|agent| |shareValues| **INSERT NAME**" enabled="true">
+	<stringProp name="thoughtwireApiSharevaluesMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiSharevaluesPath">/agent-server/shareValues</stringProp>
+	<stringProp name="thoughtwireApiSharevaluesPt">**SHAREPT**</stringProp>
+	<stringProp name="thoughtwireApiSharevaluesSi">**SHAREID**</stringProp>
+	<stringProp name="thoughtwireApiSharevaluesSv">**SHAREVALUES**</stringProp>
+</ca.thoughtwire.tools.jmeter.addon.element.sampler.share.share.ShareValuesSampler>
+<hashTree />

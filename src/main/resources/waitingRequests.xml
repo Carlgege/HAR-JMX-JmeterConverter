@@ -1,0 +1,16 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler
+	guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSamplerGui"
+	testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler"
+	testname="|agent| |poll and receive| |idle|"
+	enabled="true">
+	<stringProp name="thoughtwireApiWaitingrequestsMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiWaitingrequestsPath">/agent-server/waitingRequests</stringProp>
+	<stringProp name="thoughtwireApiRequestnotificationMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiRequestnotificationPath">/agent-server/requestNotification</stringProp>
+	<stringProp name="thoughtwireApiWaitingrequestsPollingstyle">**STYLE**</stringProp>
+	<stringProp name="thoughtwireApiWaitingrequestsPts">${thoughtwireApiRegisterAllpt}</stringProp>
+	<stringProp name="thoughtwireApiRequestnotificationRegex">.*</stringProp>
+	<stringProp name="thoughtwireApiRequestnotificationPublish">.*</stringProp>
+	<stringProp name="thoughtwireApiRequestnotificationAttempts">1</stringProp>
+</ca.thoughtwire.tools.jmeter.addon.element.sampler.participant.notification.PollAndProcessNotificationSampler>
+<hashTree />

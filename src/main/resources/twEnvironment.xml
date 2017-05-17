@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.1" jmeter="3.1 r1770033">
+	<hashTree>
+		<TestPlan guiclass="TestPlanGui" testclass="TestPlan"
+			testname="Test Plan" enabled="true">
+			<stringProp name="TestPlan.comments"></stringProp>
+			<boolProp name="TestPlan.functional_mode">false</boolProp>
+			<boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+			<elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        		<collectionProp name="Arguments.arguments"/>
+      		</elementProp>
+			<stringProp name="TestPlan.user_define_classpath"></stringProp>
+		</TestPlan>
+		<hashTree>
+		<ca.thoughtwire.tools.jmeter.addon.element.config.environment.EnvironmentConfig guiclass="ca.thoughtwire.tools.jmeter.addon.element.config.environment.EnvironmentConfigGui" testclass="ca.thoughtwire.tools.jmeter.addon.element.config.environment.EnvironmentConfig" testname="ThoughtWire Environment" enabled="true">
+        <stringProp name="thoughtwireServerAgentProtocol">http</stringProp>
+        <stringProp name="thoughtwireServerAgentHost">**AgentHost**</stringProp>
+        <stringProp name="thoughtwireServerAgentPort">80</stringProp>
+        <stringProp name="thoughtwireServerDirProtocol">http</stringProp>
+        <stringProp name="thoughtwireServerDirHost"></stringProp>
+        <stringProp name="thoughtwireServerDirPort">80</stringProp>
+        <stringProp name="thoughtwireServerSsoProtocol">http</stringProp>
+        <stringProp name="thoughtwireServerSsoHost">sso.perf.thoughtwire.com.test</stringProp>
+        <stringProp name="thoughtwireServerSsoPort">80</stringProp>
+        <stringProp name="thoughtwireServerCfProtocol">http</stringProp>
+        <stringProp name="thoughtwireServerCfHost">cf.domain.twamb.ca</stringProp>
+        <stringProp name="thoughtwireServerCfPort">80</stringProp>
+        <stringProp name="thoughtwireServerCfRelayTapPort">9232</stringProp>
+        <stringProp name="thoughtwireServerCfRelaySmtpPort">25000</stringProp>
+      </ca.thoughtwire.tools.jmeter.addon.element.config.environment.EnvironmentConfig>
+      <hashTree/>

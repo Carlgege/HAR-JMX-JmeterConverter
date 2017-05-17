@@ -1,0 +1,8 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesGui" 
+testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler" testname="|agent| |removeValues|" enabled="true">
+          <stringProp name="thoughtwireApiRemovevaluesMethod">POST</stringProp>
+          <stringProp name="thoughtwireApiRemovevaluesPath">/agent-server/removeValues</stringProp>
+          <stringProp name="thoughtwireApiRemovevaluesPt">**REMOVEVALUEPT**</stringProp>
+          <stringProp name="thoughtwireApiRemovevaluesSi">**REMOVESI**</stringProp>
+        </ca.thoughtwire.tools.jmeter.addon.element.sampler.share.remove.RemoveValuesSampler>
+        <hashTree/>

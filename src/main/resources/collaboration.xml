@@ -1,0 +1,9 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.create.CollaborationCreateSampler
+	guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.create.CollaborationCreateSamplerGui"
+	testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.create.CollaborationCreateSampler"
+	testname="|agent| |collaboration|" enabled="true">
+	<stringProp name="thoughtwireApiCollaborationMethod">POST</stringProp>
+	<stringProp name="thoughtwireApiCollaborationPath">/agent-server/collaboration</stringProp>
+	<stringProp name="thoughtwireApiCollaborationCuri">**COLLABORATION URI**</stringProp>
+	</ca.thoughtwire.tools.jmeter.addon.element.sampler.collab.create.CollaborationCreateSampler>
+	<hashTree />

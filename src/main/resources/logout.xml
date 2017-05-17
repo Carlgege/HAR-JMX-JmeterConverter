@@ -1,0 +1,7 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSamplerGui"
+ testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler" testname="|agent| |logout|" enabled="true">
+	<stringProp name="thoughtwireAuthenticationCredentialsMethod">POST</stringProp>
+    <stringProp name="thoughtwireAuthenticationCredentialsPath">/agent-server/sso/logout</stringProp>
+</ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.logout.LogoutServiceSampler>
+<hashTree/>
+</hashTree>

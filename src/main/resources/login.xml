@@ -1,0 +1,12 @@
+<ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler guiclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSamplerGui" 
+testclass="ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler" testname="|agent| |login|" enabled="true">
+	<stringProp name="thoughtwireAuthenticationCredentialsMethod">POST</stringProp>
+	<stringProp name="thoughtwireAuthenticationCredentialsPath">/agent-server/sso/login/service</stringProp>
+	<stringProp name="thoughtwireAuthenticationCredentialsUsername">**UserName**</stringProp>
+	<stringProp name="thoughtwireAuthenticationCredentialsPassword">**PassWord**</stringProp>
+	<stringProp name="thoughtwireAuthenticationCredentialsRangeMinimum">0</stringProp>
+	<stringProp name="thoughtwireAuthenticationCredentialsRangeMaximum">1</stringProp>
+	<stringProp name="thoughtwireAuthenticationOnfailureRetriesRetries">0</stringProp>
+	<stringProp name="thoughtwireAuthenticationOnfailureDelayDelay between">1</stringProp>
+</ca.thoughtwire.tools.jmeter.addon.element.sampler.sso.login.LoginServiceSampler>
+<hashTree/>
